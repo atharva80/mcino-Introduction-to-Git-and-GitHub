@@ -14,3 +14,5 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+
+Forked and maintained by [atharva80](https://github.com/atharva80) for the IBM "Getting Started with Git and GitHub" final project.
