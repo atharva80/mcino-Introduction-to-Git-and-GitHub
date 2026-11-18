@@ -1,8 +1,8 @@
 $ git branch -a -vv
   bug-fix-revert                cf550af [origin/bug-fix-revert] Revert "Fix typo in simple-interest.sh"
-  remotes/origin/bug-fix-revert cf550af Revert "Fix typo in simple-interest.sh"
   bug-fix-typo                  463881e [origin/bug-fix-typo] Fix typo in simple-interest.sh
 * main                          463881e [origin/main] Fix typo in simple-interest.sh
   remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert cf550af Revert "Fix typo in simple-interest.sh"
   remotes/origin/bug-fix-typo   463881e Fix typo in simple-interest.sh
   remotes/origin/main           463881e Fix typo in simple-interest.sh
