@@ -1,0 +1,15 @@
+$ curl -s https://api.github.com/repos/atharva80/mcino-Introduction-to-Git-and-GitHub/pulls/1 | jq '{url: .html_url, state, title, head: {ref: .head.ref, repo: .head.repo.full_name, fork: .head.repo.fork}, base: {ref: .base.ref, repo: .base.repo.full_name}}'
+{
+  "url": "https://github.com/atharva80/mcino-Introduction-to-Git-and-GitHub/pull/1",
+  "state": "open",
+  "title": "Revert typo fix in simple-interest.sh",
+  "head": {
+    "ref": "bug-fix-revert",
+    "repo": "atharva80/mcino-Introduction-to-Git-and-GitHub",
+    "fork": true
+  },
+  "base": {
+    "ref": "main",
+    "repo": "atharva80/mcino-Introduction-to-Git-and-GitHub"
+  }
+}

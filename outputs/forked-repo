@@ -1,0 +1,8 @@
+$ curl -s https://api.github.com/repos/atharva80/mcino-Introduction-to-Git-and-GitHub | jq '{full_name, fork, html_url, parent: .parent.full_name, source: .source.full_name}'
+{
+  "full_name": "atharva80/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "html_url": "https://github.com/atharva80/mcino-Introduction-to-Git-and-GitHub",
+  "parent": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+  "source": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}
